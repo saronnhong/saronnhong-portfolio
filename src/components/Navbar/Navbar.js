@@ -7,7 +7,7 @@ function Navbar(props) {
     return (
         <div className="navTop">
             <nav className="navbar navbar-dark bg-dark fixed-top navbar-expand-sm" id="nav1">
-                <Link smooth to="/react-portfolio/#home">
+                <Link smooth to="/#home">
                     <div className="navbar-brand" ><i className="far fa-address-card"></i> Saron Nhong</div>
                 </Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,17 +16,17 @@ function Navbar(props) {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <Link smooth to="/react-portfolio/#aboutMe">
+                            <Link smooth to="/#aboutMe">
                                 <div className="navMenu" id="navAbout" data-toggle="collapse" data-target=".navbar-collapse.show">About</div>
                             </Link>
                         </li>
                         <li class="nav-item">
-                            <Link smooth to="/react-portfolio/portfolio">
+                            <Link smooth to="/portfolio">
                                 <div className="navMenu" href="#portSec" id="navPort" data-toggle="collapse" data-target=".navbar-collapse.show">Portfolio</div>
                             </Link>
                         </li>
                         <li class="nav-item">
-                            <Link smooth to="/react-portfolio/#contact">
+                            <Link smooth to="/#contact">
                                 <div className="navMenu" id="navContact" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</div>
                             </Link>
                         </li>

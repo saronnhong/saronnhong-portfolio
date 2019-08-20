@@ -11,7 +11,6 @@ class App extends Component {
     return (
       <div className="main">
         <a id="home"></a>
-
         <div className="homeScreen">
           <div className="container">
             <div className="row">
