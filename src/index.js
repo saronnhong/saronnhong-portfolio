@@ -14,8 +14,8 @@ ReactDOM.render(
             <Navbar />
             <Switch>
                 <Route exact path="/" component={App} />
-                <Route exact path="/react-portfolio" component={App} />
-                <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+                <Route exact path="/saronnhong-portfolio" component={App} />
+                <Route exact path="/saronnhong-portfolio/portfolio" component={Portfolio} />
                 <Route component={App} />
             </Switch>
 
